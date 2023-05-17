@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8758FF;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #5CB8E4;
+    padding: 5px;
+}
+
+header > h1 {
+    color: #0D0C0B;
+    font-size: 4rem;
+    text-shadow: 3px 3px #8758FF;
+}
+
+.score-board {
+    border: 4px dashed whitesmoke;
+    margin: 20px auto;
+    color: whitesmoke;
+    width: 200px;
+    font-size: 2.5rem;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    padding: 2px 10px;
+    width: 60px;
+    font-size: 1rem;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+#user-label {
+    background-color: #256D85;
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#comp-label {
+    background-color: #FF577F;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+#user-score, #computer-score {
+    font-size: 3.2rem;
+}
+
+.result {
+    color: whitesmoke;
+}
+
+.result > p {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.choices {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    width: 150px;
+    height: 150px;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    margin: 0px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #47B5FF;
+}
+
+img {
+    width: 96px;
+    height: 96px;
+}
+
+#action-message {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.green-glow {
+    border: 4px solid #0ffd6a;
+    box-shadow: 0 0 10px #22de2f;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+
+.user-color {
+    color: #256D85;
+}
+
+.comp-color {
+    color: #FF577F;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors !!!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    
+    <div class="score-board">
+        <div class="badge" id="user-label">user</div>
+        <div class="badge" id="comp-label">comp</div>
+        <span id="user-score">0</span>
+        <span>:</span>
+        <span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p><span id="choice01">Paper</span> Beats <span id="choice02">Rock</span>. You Win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="./img/hand-rock.png" alt="rock-img">
+        </div>
+        <div class="choice" id="p">
+            <img src="./img/hand-paper.png" alt="paper-img">
+        </div>
+        <div class="choice" id="s">
+            <img src="./img/hand-scissors.png" alt="scissors-img">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move!</p>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
